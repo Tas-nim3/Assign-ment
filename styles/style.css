@@ -1,0 +1,251 @@
+*{margin:0;
+  padding:0;
+}
+/*font-styles*/
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .hover-effect:hover{
+    background-color:darkgrey;
+}
+body{
+    margin-left:160px;
+    margin-right:160px; 
+    background-color: #F1F1F3;
+}
+
+/*Header styles*/
+
+/*    bd2.0     */
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:31px;
+
+}
+h1{
+    font-size:32px;
+    font-weight: bold;               
+}
+.sigh-in-btn{
+    background-color:#F5F5F5;        ;
+    color:#006A50;
+    border-color: #13c599;
+    padding: 30px;
+    border-radius:8 ;
+    font-size:18px ;
+    font-weight:400px;
+    height: 52px;
+    width: 116px;
+    padding:5px;
+
+}
+
+/* Explore New BD */
+
+
+.explore-new-banner {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding:0px  59.99px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+    margin-top:20px ;
+    margin-bottom: 0;
+    margin-right:200px;
+}
+.hero-container {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+   
+    text-align: center;
+    gap:0px;     
+}
+
+.header-content {
+    width: 622px;
+    text-align: left; 
+    height: 326px;
+    padding-top:117px ;
+    padding-bottom:117px;
+}
+.hero-font-1{
+    font-size: 24px;
+    color: #6d6a6a;
+}
+.hero-font-2{
+    font-size:56px;
+    margin-top:16px ;
+    padding:5px;
+    
+}
+.flag-image{
+    width: 474.03px;  
+    height: 400px;  
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+.explore-btn{
+background-color: #006A50;
+color: #F5F5F5;
+font-size: 18px;
+border:none;
+border-radius:8px;
+padding:17px 34px;
+margin-top:24px;
+}
+/* Pillars Section */
+
+
+.pillars-section {
+  margin: 50px 0;
+}
+   
+.pillars-heading {
+  font-size: 40px;
+  color:#0E0E0E;
+  margin-top: 80px;
+  margin-bottom:32px ;
+  text-align: left;
+ 
+}
+
+.pillars-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+}
+
+.pillar-card {
+  background-color: #FFFFFF;
+  border-radius:16px;
+  padding:20px;
+  text-align:left;
+  width:302px;
+  height:244px;
+}
+
+.pillar-title {
+  margin:10px;
+  font-size:20px;
+  text-align: left;
+  padding: 0%;
+}
+
+.pillar-description {
+  font-size: 14px;
+  color: #0E0E0E;
+}
+
