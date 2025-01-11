@@ -166,16 +166,19 @@ h1{
 .hero-container {
     display: flex;
     flex-direction: row;  
-    justify-content: space-between;
-   
-    text-align: center;
-    gap:60px;     
+    justify-content:space-between;
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+    text-align:left;
+    align-items: center;
+    gap:10px;
 }
 
 .header-content {
     width: 622px;
     text-align: left; 
-    height: 326px;
+    
     padding-top:117px ;
     padding-bottom:117px;
 }
@@ -192,8 +195,10 @@ h1{
 .flag-image{
     width: 474.03px;  
     height: 400px;  
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin:80px 0;
+    text-align: left;
+    display: flex;
+    align-items:center;
     text-align: left;
     
     
@@ -227,7 +232,7 @@ margin-top:24px;
 .pillars-container {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  gap:25px;
 
 }
 
@@ -268,7 +273,7 @@ margin-top:24px;
   padding-left: 0%;
  
 }
-.vision-inro{
+.vision-intro{
   color:#7e7b7b;
   font-size: 16px;
   margin-bottom: 34px;
@@ -326,13 +331,13 @@ margin-top:24px;
     background-color:#5490F5; 
     border:0;       ;
     color:white;
-    padding:11px;
+    padding:11px 20px;
     border-radius:8px;
     font-size:16px ;
     height:41px;
     width:122px;
     text-align: center;
-    margin-top:100px;
+    margin-top: 100px;
 }
 .learn-btn2{
 
@@ -400,6 +405,7 @@ margin-top:24px;
   background-color: #FFFFFF;
   border: 1px solid #ddd;
   margin-bottom: 80px;
+  border-radius:16px ;
   
  
 }
@@ -411,19 +417,20 @@ margin-top:24px;
   
   
 }
-th,td{
-  border:1px solid darkgray;
+td{
+  border:2px solid rgb(214, 211, 211);
 }
 .tb-data{
-  color:#0E0E0E;
-  font-size: 18px;
+  color:#3f3d3d;
+  font-size:18px;
+  padding:36.5px 24px;
 }
 .tb-title {
-  font-size:40px ;
-  font-weight: bold;
+  font-size:20px ;
   color:#0E0E0E;
   text-align: left;
   margin-bottom:24px;
+  padding:24px;
   
   
 }
@@ -440,19 +447,22 @@ thead th {
   font-size: 14px;
   
 }
-
+.tb-button{
+  text-align: center;
+}
 
 /* Button Styling */
-button  {
+.button-style{
   background-color: #C6E4D6;
   color: black;
-  border: 1px solid black;
+  border: 1px solid rgb(78, 77, 77);
   padding: 12px 16px;
   font-size: 16px;
-  text-align:center;
   border-radius: 4px;
-  padding: 5px;
-
+  width:90%;
+  text-align:center;
+  display:inline-block;
+  margin:0 auto;
 }
 .button{
     text-align: center;
@@ -584,7 +594,7 @@ button  {
 
 .amount {
   background-color:white;
-  color:#dad8d8 ;
+  color:#e4e1e1 ;
   padding:20px;
   font-size:20px;
   width: 1032px;
@@ -644,11 +654,11 @@ button  {
 
   .email{
   background-color:white;
-  color:#cac8c8 ;
+  color:#e0dbdb ;
   padding:20px;
   font-size:20px;
   width:600px;
-  text-align: center;
+  text-align:left;
   border:none;
   border-radius:8px 0 0 8px;
   outline:none;
@@ -707,7 +717,11 @@ button  {
 }
 .line {
   width:1222px;
-  height:1px;
-  background-color:#7c7878;
+  height:2px;
+  background-color:#d4cdcd;
   margin:0 auto;
+}
+
+.icon-margin{
+  margin: 5px;
 }
