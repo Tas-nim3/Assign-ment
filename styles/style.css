@@ -231,11 +231,12 @@ margin-top:24px;
 
 .pillars-container {
   display: flex;
-  justify-content: space-between;
   gap:25px;
 
 }
-
+.pillar-bd > *{
+  flex:1;
+}
 .pillar-card {
   background-color: #FFFFFF;
   border-radius:16px;
@@ -281,7 +282,7 @@ margin-top:24px;
 
 .vision-container {
   display: flex;
-  justify-content:space-between;
+  
   gap:24px;
 
 }
@@ -381,7 +382,7 @@ margin-top:24px;
 
   .quota-img{
     padding-top: 23px;
-    background-image:url('/assets/quote-bg.png');
+    background-image:url('../assets/quote-bg.png');
   background-repeat: no-repeat;
 }
 .color{
@@ -661,7 +662,8 @@ thead th {
   text-align:left;
   border:none;
   border-radius:8px 0 0 8px;
-  outline:none;
+  
+ 
 
   }
 
@@ -723,5 +725,5 @@ thead th {
 }
 
 .icon-margin{
-  margin: 5px;
+  margin:10px;
 }
