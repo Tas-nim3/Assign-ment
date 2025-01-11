@@ -435,7 +435,9 @@ td{
   
   
 }
-
+.tb-headline{
+  font-size:40px ;
+}
 th,td {
   padding: 22px 25px;
   text-align: left;
